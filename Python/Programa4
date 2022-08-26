@@ -1,0 +1,11 @@
+'''
+hacer un programa que lea el nombre edad y sexo de 10 personas el programa mostrara cuantas hombres mayor de 
+edad y cuantos hombres menor de edad y contrario
+'''
+print("Programa de edad de hombre y mujeres")
+print(" ")
+
+nombre = str(input("Escriba el nombre de la persona: "))
+edad = int(input("Escriba la edad de la persona: "))
+sexo = str(input("Escriba el sexo de la persona: "))
+
