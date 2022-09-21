@@ -1,0 +1,11 @@
+#Entrada de datos
+
+#Entrada de cadenas
+nombre = input("Digite su nombre: ")
+
+print(f"{nombre}")
+
+#Entrada de numeros
+numero = int(input("Digite un numero: "))
+
+print(f"El numero es {numero}")

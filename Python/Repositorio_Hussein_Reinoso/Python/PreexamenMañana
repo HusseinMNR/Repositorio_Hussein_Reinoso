@@ -1,0 +1,30 @@
+global impar
+global par
+def arreglo(x):
+ n = int(input("Escribe un numero "))
+
+ 
+ if (n>1 and n>50):
+     print ("Solo numeros entre 1 y 50") 
+     arreglo(x)
+
+par = 0
+impar = 0
+def pares(n):
+    
+    if ([n%2])==0:
+        par += 1
+    if ([n%2])!=0:
+        impar += 1
+        
+        
+a = [0,1,2,3,4,5,6,7,8,9]
+for x in range (0,10):
+    arreglo(x)
+    print("Arreglo",a[x])
+    print(impar)
+    print(par)
+
+        
+         
+    

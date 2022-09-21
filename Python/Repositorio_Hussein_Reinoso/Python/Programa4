@@ -1,0 +1,17 @@
+'''
+hacer un programa que lea el nombre edad y sexo de 10 personas el programa mostrara cuantas hombres mayor de 
+edad y cuantos hombres menor de edad y contrario
+'''
+def mostrar(n,e,s):
+    if e>=18:
+        if s=='M' or s=='m':
+         print('Hombre')
+     
+    elif e<18:
+        if s=='M' or s=='m':
+         print('Niño')
+
+n = input('Escribe el nombre\n')
+e = input('Escribe la edad\n')
+s = input('Escribe el sexo\n')
+mostrar(n,e,s)

@@ -1,0 +1,27 @@
+#hacer un programa que en un arreglo de 10 posiciones en las posiciones pares se almacenen numeros pares
+#y en las impares se almacenen numeros impares
+def validar(b):
+    po=0
+    if (b==False):
+            if a[po]==0:
+                print('Posicion vacia')
+                arreglo(po) 
+            
+        p = a[b]
+        arreglo(b)
+
+def arreglo(a):
+    n = int(input("Escribe un numero escribe un numero diferente de 0: "))
+    if (a[x]==0):
+        if([x%2]==0 and [n%2]==0):
+            a[x]=n
+        if([x%2]!=0 and [n%2]!=0):
+            a[x]=n
+        if a[x]==0:
+            arreglo(a)
+            validar(a)      
+
+a = [0,0,0,0,0,0,0,0,0,0]
+for x in range(0,10):
+    arreglo(x)   
+    print(x,'',a[x])

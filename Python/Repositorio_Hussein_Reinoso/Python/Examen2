@@ -1,0 +1,16 @@
+#Hussein Maximiliano Nuño Reinoso
+
+num1 = int(input("Ingrese el primer numero: "))
+num2 = int(input("Ingrese el segundo numero: "))
+num3 = int(input("Ingrese el tercer numero: "))
+
+trio1 = num1**2
+trio2 = num2**2
+trio3 = num3**2
+
+if trio1+trio2==trio3:
+    print(f"El trio es \n{trio1}\n{trio2}\n{trio3}")
+    print("Correcto")
+else:
+    print("Incorrecto")
+    

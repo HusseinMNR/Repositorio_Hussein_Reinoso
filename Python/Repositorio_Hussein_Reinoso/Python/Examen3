@@ -1,0 +1,18 @@
+#Hussein Maximiliano Nuño Reinoso
+
+num1 = int(input("Ingrese el numero de veces que desea repetir el programa: "))
+for x in range (num1):
+    while True:
+        p = False
+        n = int(input("Escribe un numero: "))
+        if n>0:
+            if n%4==0:
+                print(f"{n} \nYES")
+                break
+            else:
+             print("NO")
+        else:
+            print(f"El numero {n} es negativo vuelva a introducir")
+        
+        p
+        

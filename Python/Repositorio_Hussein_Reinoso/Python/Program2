@@ -1,0 +1,17 @@
+'''
+Hacer un programa que lea una cadena donde la cadena representara la cantidad de numeros impares que se deben de leer,
+si no se introduce un numero impar se volvera a pedir el numero al final mostrara promedio y suma de los numeros introducidos
+'''
+c = input("Introduce una cadena: ")
+for x in range (len(c)):
+    while True:
+        p = False
+        n = int(input("Escribe un numero: "))
+        if (n%2!=0):
+            t=n+1
+            e = t/len(c)
+            print(f"Es impar {n} La suma es {t} y el promedio es {e}")
+            break
+        else:
+            print("Es par se vuelve a introducir")
+        p    

@@ -1,0 +1,27 @@
+'''
+Hacer un programa que pida un numero comprendido entre 5 y 20 de lo contrario se volvera a pedir.
+El programa mostrara todos los numeros pares que se encuentran entre 0 y el numero que se escribio.
+'''
+
+
+while True:
+    f = False
+    numero = int(input("Ingrese un numero entre 5 y20: "))
+    b = 0
+    if(numero>=5 and numero<=20):
+        while (numero%2==0):
+            b+2
+            print(b)
+        else:
+            c=numero-1
+            while(b<c):
+                b+=2
+                
+                print(b)
+            
+        break
+    else:
+     print(f"EL NUMERO {numero} NO ES CORRECTO")
+     f  
+   
+    

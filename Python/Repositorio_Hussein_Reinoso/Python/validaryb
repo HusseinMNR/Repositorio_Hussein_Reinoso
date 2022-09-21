@@ -1,0 +1,13 @@
+def cuadradonum(x):
+   resultado=x*x
+   return resultado
+
+
+while True:
+    try:
+        entrada =  int(input("Numero: "))
+        break
+    except ValueError:
+     print("Nop")
+     
+print(cuadradonum(entrada))    

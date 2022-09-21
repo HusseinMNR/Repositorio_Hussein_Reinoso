@@ -1,0 +1,21 @@
+#Hussein Maximiliano Nuño Reinoso
+
+mes1 = float(input("Ingrese la cantidad del primer mes: "))
+mes2 = float(input("Ingrese la cantidad del segundo mes: "))
+mes3 = float(input("Ingrese la cantidad del tercer mes: "))
+mes4 = float(input("Ingrese la cantidad del cuarto mes: "))
+mes5 = float(input("Ingrese la cantidad del quinto mes: "))
+mes6 = float(input("Ingrese la cantidad del sexto mes: "))
+mes7 = float(input("Ingrese la cantidad del septimo mes: "))
+mes8 = float(input("Ingrese la cantidad del octavo mes: "))
+mes9 = float(input("Ingrese la cantidad del noveno mes: "))
+mes10 = float(input("Ingrese la cantidad del decimo mes: "))
+mes11 = float(input("Ingrese la cantidad del onceavo mes: "))
+mes12 = float(input("Ingrese la cantidad del doceavo mes: "))
+
+prom1 = mes1+mes2+mes3+mes4+mes5+mes6+mes7+mes8+mes9+mes10+mes11+mes12
+
+promedio = prom1/12
+
+print(f"El promedio de esto es: {promedio:.3f}")
+

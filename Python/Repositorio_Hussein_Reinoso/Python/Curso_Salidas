@@ -1,0 +1,7 @@
+#Salidas
+
+nombre = "McLovin"
+edad = 18
+
+print(f"Hola {nombre} tienes {edad} años ")
+# print("Hola {} tienes {} años".format(nombre,edad))

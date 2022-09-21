@@ -1,0 +1,16 @@
+from curses.ascii import isdigit
+
+
+def validarletras(a):
+    x = 0
+    for i in a:
+        print(i,' ')
+    
+        if salpha(i):
+            print('Es una letra')
+
+        else:
+            print('No es caracter')    
+
+a = input('Escribe un nombre')
+validarletras(a)
