@@ -1,3 +1,6 @@
+from ast import If
+
+
 def validarnumero(op):
     con = 0
     if op.isdigit():
